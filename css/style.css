@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html { 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img.logo {
+  display: block;
+  margin: 5% auto 5% auto;
+}
+
+a.link, a.link:visited {
+  display: block;
+  text-align: center;
+  margin:2.5% 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+a.link:hover {
+  color: #1c1c1c;
+}
+
+@media only screen and (max-width: 768px) {
+  img.logo {
+    display: block;
+    margin: 20% auto 15% auto;
+  }
+
+  a.link, a.link:visited {
+    display: block;
+    text-align: center;
+    margin:8% 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+  }
+
+  a.link:hover {
+    color: rgb(138, 138, 138);
+  }
+}
